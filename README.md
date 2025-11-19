@@ -1,0 +1,20 @@
+DoChaos 是一个混沌随机事件模组，提供以下功能：
+
+• 随机给予玩家物品
+• 随机生成敌怪
+• 可自由调整触发频率与功能开关
+• 完全兼容多人游戏
+
+更多功能将在后续更新中加入，欢迎继续关注。
+
+
+---
+
+DoChaos is a chaos-based random event mod, featuring:
+
+• Randomly gives items to the player
+• Randomly spawns enemies
+• Fully configurable trigger frequency and feature toggles
+• Fully compatible with multiplayer
+
+More features will be added in future updates. Stay tuned!
