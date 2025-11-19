@@ -1,0 +1,66 @@
+Mods: {
+	DoChaos: {
+		Status: {
+			GetItem: "{0} 得到了：{1}"
+			NpcSpawn: "{0} 被 {1} 所包围。"
+		}
+
+		Configs: {
+			ChaosConfig: {
+				DisplayName: 混沌设置
+
+				Headers: {
+					Main: 混沌功能总开关
+					Features: 具体功能开关
+					Frequency: 触发频率
+					TargetMode: 目标模式
+				}
+
+				EnableChaos: {
+					Label: 启用混沌效果
+					Tooltip: 关闭后完全不触发任何混沌事件。
+				}
+
+				EnableGiveItem: {
+					Label: 启用随机给予物品
+					Tooltip: 关闭后不会再随机给予玩家物品。
+				}
+
+				EnableSpawnNPC: {
+					Label: 启用随机刷怪
+					Tooltip: 关闭后不会再在玩家附近生成随机 NPC。
+				}
+
+				ChaosIntervalSeconds: {
+					Label: 混沌间隔（秒）
+					Tooltip: 每多少秒触发一次混沌效果，默认 20 秒。
+				}
+
+				TargetMode: {
+					Label: 目标模式
+					Tooltip: 选择混沌效果作用到谁身上。
+				}
+
+				TargetPlayerName: {
+					Label: 指定玩家名称
+					Tooltip: 目标模式为“只折磨指定玩家”时，在这里填要折磨的玩家名（区分大小写）。
+				}
+
+				ChaosTargetMode: {
+					SpecificPlayer: 只折磨指定玩家
+					RandomPlayer: 折磨随机玩家
+					AllPlayers: 折磨所有人
+				}
+
+				// OnlyHostCanChange: Only the host can modify this configuration.
+			}
+
+			ChaosTargetMode: {
+				// Tooltip: ""
+				// SpecificPlayer.Tooltip: ""
+				// RandomPlayer.Tooltip: ""
+				// AllPlayers.Tooltip: ""
+			}
+		}
+	}
+}

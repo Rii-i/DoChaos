@@ -1,0 +1,66 @@
+Mods: {
+	DoChaos: {
+		Status: {
+			GetItem: "{0} got: {1}"
+			NpcSpawn: "{0} is surrounded by: {1}"
+		}
+
+		Configs: {
+			ChaosConfig: {
+				DisplayName: Chaos Settings
+
+				Headers: {
+					Main: Main Chaos Switch
+					Features: Feature Switches
+					Frequency: Chaos Interval
+					TargetMode: Target Mode
+				}
+
+				EnableChaos: {
+					Label: Enable Chaos Effects
+					Tooltip: When disabled, no chaos effects will be triggered.
+				}
+
+				EnableGiveItem: {
+					Label: Enable Random Item Rewards
+					Tooltip: When disabled, no random items will be given.
+				}
+
+				EnableSpawnNPC: {
+					Label: Enable Random NPC Spawning
+					Tooltip: When disabled, no random NPCs will be spawned.
+				}
+
+				ChaosIntervalSeconds: {
+					Label: Chaos Interval (Seconds)
+					Tooltip: Chaos triggers every N seconds. Default is 20 seconds.
+				}
+
+				TargetMode: {
+					Label: Target Mode
+					Tooltip: Choose who the chaos effects should target.
+				}
+
+				TargetPlayerName: {
+					Label: Specific Player Name
+					Tooltip: Only used when Target Mode is “Specific Player”. Case-sensitive.
+				}
+
+				ChaosTargetMode: {
+					SpecificPlayer: Specific Player
+					RandomPlayer: Random Player
+					AllPlayers: All Players
+				}
+
+				OnlyHostCanChange: Only the host can modify this configuration.
+			}
+
+			ChaosTargetMode: {
+				Tooltip: ""
+				SpecificPlayer.Tooltip: ""
+				RandomPlayer.Tooltip: ""
+				AllPlayers.Tooltip: ""
+			}
+		}
+	}
+}
